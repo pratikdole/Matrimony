@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<meta charset="UTF-8">
+	
+	<!-- Max CDN online links -->
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!-- Proper rendering for mobile view -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	
+	<!-- Background image -->
+	<div class="bgimage img-fluid">
+		<!--#include file="header.shtml" -->
+
+		<!-- Content and images over an background image -->
+		<div class="text-center container">
+			<!-- Main content over background image under navbar -->
+			<h1 class="main-content-overimage">सर्व <span class="text-warning">कुणबी</span> आणि <span class="text-warning ">मराठा</span> समाज्यातील वधू वरांंसाठी मराठी परंंपरेला अनुसरुन</h1>
+
+			<!-- Image over background image -->
+			<img src="images/index-image.png" class="img-fluid text-center mt-2">	
+
+			<h3 class="text-warning">बंध रेशमाचे</h3>
+
+			<h3 class="text-white pb-3">बंध मनाचे धागे आयुष्याचे</h3>
+		</div>
+	</div>
+
+	<!-- Find your soulmate -->
+	<div class="container text-center">
+		<h2 class="text-danger mt-5 heading">Find your Soulmate</h2>
+		<hr width="10%" class=" mx-auto bg-danger fys-underline">
+		<p class="text-danger"> You are 3 steps away to find your perfect match</p>
+
+		<div class="row">
+			<div class="col-md-4 mt-2">
+				<span class="fa-stack fa-5x">
+					<i class="fa fa-circle fa-stack-2x text-primary"></i>
+					<i class="fas fa-user-check fa-stack-1x fa-xs text-white px-auto pl-3"></i>
+				</span>
+				<h4 class="text-primary">Register</h4>
+				<p class="text-primary">Register for free & fill your profile</p>
+			</div>
+
+			<div class="col-md-4 mt-2">
+				<span class="fa-stack fa-5x">
+					<i class="fa fa-circle fa-stack-2x text-primary"></i>
+					<i class="fas fa-user-friends fa-stack-1x fa-xs text-white px-auto"></i>
+				</span>
+				<h4 class="text-primary">Connect</h4>
+				<p  class="text-primary">Search for your match and send request <br>to them</p>
+			</div>
+
+			<div class="col-md-4 mt-2">
+				<span class="fa-stack fa-5x">
+					<i class="fa fa-circle fa-stack-2x text-primary"></i>
+					<i class="fas fa-comments fa-stack-1x fa-xs text-white px-auto"></i>
+				</span>
+				<h4 class="text-primary">Interact</h4>
+				<p class="text-primary">Interact and meet with them</p>
+			</div>
+
+		</div>	
+	</div>
+
+	<!--Profiles -->
+	<!-- For web view -->
+	<div class="container-fluid mt-5 text-center cf-padding d-md-block d-none">
+		<h2 class="text-primary">FEATURED PROFILES</h2>
+		<hr width="10%" class="mx-auto bg-primary">
+		<div class="carousel slide mt-4 grad" id="myslider" data-ride="carousel">
+			<div class="carousel-inner text-white">
+				<!-- First image -->
+				<div class="carousel-item active">
+					<div class="row ">
+						<div class="col-md-4">
+							<img src="images/1.jpg" class="mb-3">
+							<p class="mb-0">Id - 123821</p>
+							<p class="mb-0">Age - 23</p>
+							<p class="mb-0">Location - Pune</p>
+							<p class="mb-4">Qualification - B.A.</p>
+						</div>
+						<div class="col-md-4">
+							<img src="images/2.jpg" class="mb-3">
+							<p class="mb-0">Id - 123821</p>
+							<p class="mb-0">Age - 23</p>
+							<p class="mb-0">Location - Pune</p>
+							<p class="mb-4">Qualification - B.A.</p>
+						</div>
+						<div class="col-md-4">
+							<img src="images/3.jpg" class="mb-3">
+							<p class="mb-0">Id - 123821</p>
+							<p class="mb-0">Age - 23</p>
+							<p class="mb-0">Location - Pune</p>
+							<p class="mb-4">Qualification - B.A.</p>
+						</div>
+					</div>
+				</div>
+
+				<!-- Second image -->
+				<div class="carousel-item">
+					<div class="row">
+						<div class="col-md-4">
+							<img src="images/4.jpg" class="mb-3">
+							<p class="mb-0">Id - 123821</p>
+							<p class="mb-0">Age - 23</p>
+							<p class="mb-0">Location - Pune</p>
+							<p class="mb-4">Qualification - B.A.</p>
+						</div>
+						<div class="col-md-4">
+							<img src="images/1.jpg" class="mb-3">
+							<p class="mb-0">Id - 123821</p>
+							<p class="mb-0">Age - 23</p>
+							<p class="mb-0">Location - Pune</p>
+							<p class="mb-4">Qualification - B.A.</p>
+						</div>
+						<div class="col-md-4">
+							<img src="images/2.jpg" class="mb-3">
+							<p class="mb-0">Id - 123821</p>
+							<p class="mb-0">Age - 23</p>
+							<p class="mb-0">Location - Pune</p>
+							<p class="mb-4">Qualification - B.A.</p>
+						</div>
+					</div>
+				</div>
+
+				<!-- Third image  -->
+				<div class="carousel-item">
+					<div class="row">
+						<div class="col-md-4">
+							<img src="images/3.jpg" class="mb-3">
+							<p class="mb-0">Id - 123821</p>
+							<p class="mb-0">Age - 23</p>
+							<p class="mb-0">Location - Pune</p>
+							<p class="mb-4">Qualification - B.A.</p>
+						</div>
+						<div class="col-md-4">
+							<img src="images/4.jpg" class="mb-3">
+							<p class="mb-0">Id - 123821</p>
+							<p class="mb-0">Age - 23</p>
+							<p class="mb-0">Location - Pune</p>
+							<p class="mb-4">Qualification - B.A.</p>
+						</div>
+						<div class="col-md-4">
+							<img src="images/1.jpg" class="mb-3">
+							<p class="mb-0">Id - 123821</p>
+							<p class="mb-0">Age - 23</p>
+							<p class="mb-0">Location - Pune</p>
+							<p class="mb-4">Qualification - B.A.</p>
+						</div>
+					</div>
+				</div>	
+			</div>	
+
+			<!-- previous+next icon -->
+			<a href="#myslider" data-slide="prev" class="carousel-control-prev prev-icon">
+				<span class="carousel-control-prev-icon"></span>
+			</a>
+
+			<a href="#myslider" data-slide="next" class="carousel-control-next next-icon">
+				<span class="carousel-control-next-icon"></span>
+			</a>
+		</div>
+	</div>
+
+	<!-- Profiles -->
+	<!-- For mobile view -->
+	<div class="container-fluid mt-5 text-center cf-padding d-md-none d-block">
+		<h2 class="text-primary heading">FEATURED PROFILES</h2>
+		<hr width="30%" class="mx-auto bg-primary">
+		<div class="carousel slide mt-4 grad" id="myslider" data-ride="carousel">
+			<div class="carousel-inner text-white">
+				<!-- First image -->
+				<div class="carousel-item active">
+					<div class="row ">
+						<div class="col-12">
+							<img src="images/1.jpg" class="mb-3">
+							<p class="mb-0">Id - 123821</p>
+							<p class="mb-0">Age - 23</p>
+							<p class="mb-0">Location - Pune</p>
+							<p class="mb-4">Qualification - B.A.</p>
+						</div>
+					</div>
+				</div>
+
+				<!-- Second image -->
+				<div class="carousel-item">
+					<div class="row">
+						<div class="col-12">
+							<img src="images/4.jpg" class="mb-3">
+							<p class="mb-0">Id - 123821</p>
+							<p class="mb-0">Age - 23</p>
+							<p class="mb-0">Location - Pune</p>
+							<p class="mb-4">Qualification - B.A.</p>
+						</div>
+						
+					</div>
+				</div>
+
+				<!-- Third image  -->
+				<div class="carousel-item">
+					<div class="row">
+						<div class="col-12">
+							<img src="images/3.jpg" class="mb-3">
+							<p class="mb-0">Id - 123821</p>
+							<p class="mb-0">Age - 23</p>
+							<p class="mb-0">Location - Pune</p>
+							<p class="mb-4">Qualification - B.A.</p>
+						</div>
+					</div>
+				</div>	
+			</div>	
+
+			<!-- previous+next icon -->
+			<a href="#myslider" data-slide="prev" class="carousel-control-prev prev-icon">
+				<span class="carousel-control-prev-icon"></span>
+			</a>
+
+			<a href="#myslider" data-slide="next" class="carousel-control-next next-icon">
+				<span class="carousel-control-next-icon"></span>
+			</a>
+		</div>
+	</div>
+
+	<!-- What makes us Special -->
+	<div class="container-fluid text-center pt-5 pb-5 wmus-container">
+		<h2 class="text-danger heading">What Makes us Special ?</h2>
+		<hr width="15%" class="mx-auto bg-danger wmus-underline">
+		<div class="row mt-4">
+			<div class="col-md-3 mt-3">
+				<div class="border	border-white bg-white">
+
+					<i class="fas fa-lock text-danger fa-3x mt-4"></i>
+					<p class="text-primary my-4 px-3">Highly exclusive & secured with exclusive profile privacy options.</p>
+				</div>
+			</div>
+
+			<div class="col-md-3 mt-3">
+				<div class="border	border-white bg-white">
+					<i class="fas fa-phone fa-flip-horizontal text-danger fa-3x mt-4"></i>
+					<p class="text-primary my-4">Authentic & trusted profiles with 100% verified contact numbers</p>
+
+				</div>
+			</div>
+
+			<div class="col-md-3 mt-3">
+				<div class="border	border-white bg-white">
+
+					<i class="fas fa-rupee-sign text-danger fa-3x mt-4"></i>
+
+					<p class="text-primary my-4">Aadhar verifications & one time registration fee till the marriage</p>
+				</div>
+				
+			</div>
+
+			<div class="col-md-3 mt-3">
+				<div class="border	border-white bg-white">
+
+					<i class="fas fa-images text-danger fa-3x mt-4"></i>
+
+						<p class="text-primary my-4">Restrict your photo sharing with our unique features</p>
+				</div>
+			
+			</div>
+		</div>
+		
+	</div>
+
+	<!--Middle Login bar -->
+ 		<div class="bg-primary middle-bar">
+			<div class="container">
+				<h4 class="pl-5 text-white d-inline middlebar-content1">Don't wait, your perfect match is waiting for you to log in.</h4>
+
+				<div class="btn btn-secondary text-white middlebar-content2">Login</div>
+			</div>
+		</div>
+	
+	<!-- About bandh reshmache -->
+ 		<div>
+			<div class="container">
+				<h2 class="text-center text-danger pt-5 heading">About Bandh Reshmanche</h2>
+				<hr width="10%" class=" mx-auto bg-danger mb-4 abr-underline">
+
+				<p class="text-secondary"> 
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>
+			</div>
+		</div>	
+	
+
+	<!--#include file="footer.shtml" -->
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+	</script>
+	
+</body>
+</html>

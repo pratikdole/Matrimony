@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home</title>
+    <meta charset="UTF-8">
+    
+    <!-- Max CDN online links -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- Proper rendering for mobile view -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    
+    <!--#include file="header-other.shtml" -->
+    <div class="container rounded-lg border mt-5 shadow">
+        <h2 class="text-center text-danger mt-3">Rules</h2>
+        <hr>
+        <div class="row mx-5">
+            <div class="col-md-12">
+                <ul>
+                    <li>बंध रेशमाचे हा Matrimony & Wedding Services चा online platform आहे त्यामुळे नोंदणी फक्त online स्वीकारली जाते.</li>
+                    <li>बंध रेशमाचे चे सभासद होण्यासाठी आपल्याला नोंदणी करावी लागेल व वार्षिक fee भरावी लागेल.</li>
+                    <li>एक वर्षाकरिता सभासद fee : Rs.<strike> 2500/-</strike> 1500/- (inclusive of 18% GST) *(Offer for Limited Period)</li>
+                    <li>आम्ही बंध रेशमाचे सभासदाकडून वर दिलेली fee सोडून इतर कोणत्याही fee ची मागणी करत नाही. तुम्हाला कुणी आमचे नाव सांगून
+                        यासंदर्भात संपर्क साधले तर त्यावर विश्वास ठेऊ नये.</li>
+                    <li>नोंदणी fee ही online (Debit Card / Credit Card / Net Banking, Wallets, UPI) माध्यमाने नोंदणी करताना भरणे आवश्यक आहे.
+                        रोख रक्कम स्वीकारली जाणार नाही.</li>
+                    <li>एकदा भरलेली fee कोणत्याही सबबी खाली परत मिळणार नाही.</li>
+                    <li>नोंदणी करताना योग्य आधार क्रमांक देणे आवश्यक आहे. त्यानुसार verification केले जाते.</li>
+                    <li>बंध रेशमाचे मध्ये तुमच्या caste ची किती स्थळे उपलब्ध असतील किंवा भविष्यात नोंदणी होतील या गोष्टीची हमी company देऊ
+                        शकत नाही.</li>
+                    <li>बंध रेशमाचे कडून उपलब्ध झालेल्या माहितीचा गैरवापर करता कामा नये. तसे आढळल्यास संबंधित सभासदाचे सभासत्व त्वरित रद्द
+                        केले जाईल आणि कायदेशीर कारवाई केली जाईल.</li>
+                    <li>नाव नोंदणी नंतर विवाह जमेलच किंवा अमुक दिवसात विवाह जमेल याची खात्री किंवा हमी company देऊ शकत नाही.</li>
+                    <li>विवाह ठरल्यानंतर तसे company ला 7057447333 या WhatsApp क्रमांकावर कळविणे गरजेचे आहे. त्यानुसार आपली माहिती delete
+                        करणे सोईचे होईल.</li>
+                    <li>विवाह योग बंध रेशमाचे कडून जुळून आल्यास त्या संबंधीची माहिती company ला 7057447333 या WhatsApp क्रमांकावर कळवावी.
+                    </li>
+                    <li>वर दिलेले नियम मान्य असतील त्यांनीच नोंदणी करावी.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+                                
+                                <!--#include file="footer.shtml" -->
+                                <!-- jQuery library -->
+                                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+                                
+                                
+                                <!-- Popper JS -->
+                                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+                                
+                                <!-- Latest compiled JavaScript -->
+                                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+                                </script>
+                                
+                            </body>
+                            
+                            </html>

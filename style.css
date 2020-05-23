@@ -1,0 +1,285 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.collapse-div {
+	position: absolute;
+	
+}
+a:hover {
+	text-decoration:none;
+}
+
+
+/*Index page*/
+.bgimage {
+	background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.5)), url('images/bgimage.jpg') no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 657px;
+	z-index: 2;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.image-text-padding {
+	padding-top: 6rem;
+}
+
+.image-text-padding > h1 {
+	font-weight: 400!important;
+}
+.login-register-main-div {
+	float: right;
+}
+
+.login-button {
+	border-radius: 5rem;
+	margin: 1rem;
+	width: 5rem;
+}
+
+.register-button {
+	border-radius: 5rem;
+	margin-right:  3rem;
+}
+
+.main-nav {
+	background-color: #dc3545;
+	right: 14rem;
+	margin-left: 41rem;
+	top: 4rem;
+}
+
+.nav-item-gap {
+	margin-left: auto;
+	margin-right: auto;
+}
+.nav-item-gap .nav-item{
+	margin-left: 1rem;
+}
+
+.main-content-overimage {
+	font-size: 4rem;
+	color: white;
+	margin-top: 8rem;
+	
+}
+
+.fys-underline {
+	margin-top: 0;
+	margin-bottom: 0.5rem;
+}
+
+.cf-padding {
+	padding-right: 0;
+	padding-left: 0;
+}
+.grad {
+	background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgba(220,53,69,1));
+}
+
+.prev-icon {
+	filter: invert(100%);
+	width: 2%;
+	left: 2rem;
+}
+
+.next-icon {
+	filter: invert(100%);
+	width: 2%;
+	right: 2rem;
+}
+
+.wmus-container {
+	padding-left: 5rem;
+	padding-right: 5rem;
+	background-color: #ececec;
+}
+
+.middle-bar {
+	height: 60px;
+}
+
+.middlebar-content1 {
+	position: relative;
+	top: 12px;
+}
+
+.middlebar-content2 {
+	position: relative;
+	top: 10px;
+	left: 5rem;
+	width: 5rem;
+}
+
+.above-footer-section {
+	padding-top: 3.5rem;
+}
+
+.above-footer-subcontent1 {
+	padding-left: 6rem;
+}
+
+.above-footer-subcontent2 {
+	padding-left: 3.5rem;
+}
+
+.above-footer-subcontent3 {
+	padding-left: 6.7rem;
+}
+
+/* Login page start*/
+.login-box {
+	width: 35%;
+}
+
+.border-radius-text {
+	border-radius: 50px;	
+}
+
+.register-box {
+	width:40%;
+}
+
+/* Login page  end*/
+/* Navbar other pages start*/
+a.nav-item1 {
+	padding-left: 1rem!important;
+	padding-right: 1rem!important;
+	
+}
+a.nav-item1:hover {
+	background-color: black;
+}
+/* Navbar other pages end */
+
+/* Contact page start */
+.message-text {
+	border-radius: 20px;
+}
+
+.left-column {
+	padding: 3rem;
+	padding-top: 4rem;
+}
+
+.pg-padding {
+	padding-left: 2rem;
+}
+
+.email-padding {
+	padding-left: 2.3rem;
+}
+/* Contact page end */
+@media screen and (max-width: 425px) {
+	.bgimage {
+		background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.5)), url('images/bgimage-mobile.jpg') no-repeat;
+		background-size: cover;
+		width: 100%;
+		height: auto;
+	}
+	
+	.login-register-main-div {
+		float: none;
+		text-align: center;
+		margin-left: 7rem;
+	}
+	
+	.register-button {
+		margin-right: 0;	
+	}
+	
+	.main-nav {
+		background-color: transparent;
+		right: 0;
+		margin-left: 0;
+		top: 0;
+		padding-top: 15px;
+		position: absolute;
+		left: 0;
+		
+	}
+	
+	.main-content-overimage {
+		font-size: 2rem;
+		margin-top: 3rem;
+	}
+	
+	.fys-underline {
+		width: 30%;
+	}
+	
+	.prev-icon {
+		filter: invert(100%);
+		width: 4%;
+		left: 2rem;
+	}
+	
+	.next-icon {
+		filter: invert(100%);
+		width: 4%;
+		right: 2rem;
+	}
+	
+	.wmus-underline {
+		width: 30%;
+	}
+	
+	.middlebar-content1 {
+		font-size: 12px;
+		padding-left: 0!important;
+		top: 0;
+	}
+	
+	.middlebar-content2 {
+		position: relative;
+		top: 0;
+		height: 1.7rem;
+		padding: 0;
+		margin-left: 40px;
+		font-size: 15px;
+	}
+	
+	.abr-underline {
+		width: 30%;
+	}
+	
+	.above-footer-section {
+		padding-top: 1rem;
+		padding-bottom: 0;
+	}
+	
+	.heading {
+		font-size: 24px;
+	}
+	
+	.textbox-padding {
+		padding: 0 1rem!important;
+		
+	}
+}
+
+@media screen and (min-width:320px) and (max-width:425px) {
+	.login-box {
+		width: 90%;
+	}
+	.textbox-padding {
+		padding: 0 1rem!important;
+	}
+	.register-box {
+		width:90%;
+	}
+
+	.left-column {
+		padding: 1rem;
+	}
+
+	.box-width {
+		width: 87%!important;
+	}
+
+	.textbox-padding-contact {
+		padding: 0 6px!important;
+	}
+}

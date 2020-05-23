@@ -1,0 +1,63 @@
+<br><br><br>
+<section class="bg-dark text-white above-footer-section">
+	<div class="container-fluid pb-3">
+		<div class="row">
+			<div class="col-md-3  d-md-block d-none">
+				<h3 class="pb-3 text-center">Company</h3>
+				<div class="above-footer-subcontent1 text-white">
+					<a href="about.shtml" class="text-white">
+						<i class="fas fa-check pb-2"></i>
+						<p class="d-inline pl-2">About Us</p>
+					</a>
+					<br>
+					<a href="contact.shtml" class="text-white">
+						<i class="fas fa-check pb-2"></i>
+						<p class="d-inline pl-2">Contact Us</p>
+					</a>
+					<br>
+					<a href="rules.shtml" class="text-white">
+						<i class="fas fa-check"></i>
+						<p class="d-inline pl-2">Rules</p>
+					</a>
+				</div>
+
+
+			</div>
+
+			<div class="col-md-3  d-md-block d-none">
+				<h3 class="pb-3 text-center ">Help & Support</h3>
+				<div class="above-footer-subcontent2">
+					<i class="fas fa-check pb-2"></i>
+					<p class="d-inline pl-2">Live Support</p><br>
+
+					<i class="fas fa-check pb-2"></i>
+					<p class="d-inline pl-2">Payment Option</p><br>
+				</div>
+			</div>
+
+			<div class="col-md-3  d-md-block d-none">
+				<h3 class="pb-3 text-center">Policies</h3>
+				<div class="above-footer-subcontent3">
+					<i class="fas fa-check pb-2"></i>
+					<p class="d-inline pl-2">Privacy Policy</p><br>
+
+					<i class="fas fa-check pb-2"></i>
+					<p class="d-inline pl-2">Terms & Conditions</p><br>
+				</div>
+			</div>
+
+			<div class="col-md-3 text-center">
+				<h3 class="pb-2">Follow us</h3>
+
+				<i class="fab fa-facebook-square fa-2x mr-3"></i>
+
+				<i class="fab fa-instagram fa-2x"></i>
+			</div>
+		</div>
+	</div>
+
+</section>
+
+<footer class="text-center text-white py-2" style="background-color: black;">
+	<i class="far fa-copyright text-white"></i> 2018 Chauli Technologies | All Right Reserved
+</footer>

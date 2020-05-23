@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home</title>
+    <meta charset="UTF-8">
+
+    <!-- Max CDN online links -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Proper rendering for mobile view -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+    <!--#include file="header-other.shtml" -->
+
+    <div class="container border pt-5 rounded-lg shadow mt-5 w-75 box-width">
+
+        <div class="row">
+            <div class="col-md-6">
+
+                <div class="left-column">
+                    <div>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h5 class="pl-3 d-inline ">Address</h5>
+                        <p class="pg-padding">
+                            R-23, 4th Floor, Ajinkya Vihar,
+                            Chandni Chowk, Nashik-424192
+                            Maharashtra, India.
+                        </p>
+                    </div>
+
+                    <div class="mt-4">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <h5 class="pl-3 d-inline">Contact Number</h5>
+                        <p class="pg-padding">+91 XXXXXXXXXX</p>
+                    </div>
+
+                    <div class="mt-4">
+                        <i class="fas fa-envelope"></i>
+                        <h5 class="pl-3 d-inline">Email Address</h5>
+                        <p class="email-padding">contact@Matrimonial.com</p>
+                    </div>
+                </div>
+            </div>
+           
+            <div class="col-md-6">
+                <h3>Get in Touch</h3>
+                <form class="needs-validation" autocomplete="off" novalidate>
+                    <div class="form-row mt-5 pr-5 textbox-padding-contact">
+                        <div class="col-md-12 mb-4">
+
+                            <input type="text" class="form-control py-4 border-radius-text pl-3 email-icon"
+                                placeholder="Name" required>
+                        </div>
+                        <div class="col-md-12 mb-4">
+                            <input type="text" class="form-control py-4 border-radius-text pl-3"
+                                placeholder="Email Address" required>
+                        </div>
+                        <div class="col-md-12 mb-4">
+                            <textarea type="text" class="form-control message-text pt-2 pl-3" rows="3"
+                                placeholder="Message" required></textarea>
+                        </div>
+
+                        <div class="col-md-12 mb-3">
+                            <button class="btn btn-danger border-radius-text w-100" type="submit">Send</button>
+                        </div>
+
+
+                    </div>
+                </form>
+                <script>
+                    // Example starter JavaScript for disabling form submissions if there are invalid fields
+                    (function () {
+                        'use strict';
+                        window.addEventListener('load', function () {
+                            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                            var forms = document.getElementsByClassName('needs-validation');
+                            // Loop over them and prevent submission
+                            var validation = Array.prototype.filter.call(forms, function (form) {
+                                form.addEventListener('submit', function (event) {
+                                    if (form.checkValidity() === false) {
+                                        event.preventDefault();
+                                        event.stopPropagation();
+                                    }
+                                    form.classList.add('was-validated');
+                                }, false);
+                            });
+                        }, false);
+                    })();
+                </script>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!--#include file="footer.shtml" -->
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+    </script>
+
+</body>
+
+</html>

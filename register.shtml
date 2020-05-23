@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home</title>
+    <meta charset="UTF-8">
+    
+    <!-- Max CDN online links -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- Proper rendering for mobile view -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+    <!--#include file="header-other.shtml" -->
+    
+    <div class="container rounded-lg border mt-5 p-0 register-box shadow">
+        <h2 class="text-center bg-danger text-white py-3 rounded-top">Register</h2>
+        
+        <form class="needs-validation" autocomplete="off" novalidate>
+            <div class="form-row mt-4 px-4 textbox-padding">
+                <div class="form-group col-md-12 mb-3">
+                    <select class="form-control" required="required">
+                        <option value="">Select Registering For</option>
+                        <option value="1">Self</option>
+                        <option value="2">Daughter</option>
+                        <option value="3">Son</option>
+                        <option value="4">Brother</option>
+                        <option value="5">Sister</option>
+                        <option value="6">Relative</option>
+                        <option value="7">Friend</option>
+                    </select>
+                </div>
+                <div class="col-md-12 mb-3">
+                    <input type="text" class="form-control py-3" id="validationDefault01" placeholder="First Name" required>
+                </div>
+                <div class="col-md-12 mb-3">
+                    <input type="text" class="form-control " id="validationDefault02" placeholder="Middle Name" required>
+                </div>
+                <div class="col-md-12 mb-3">
+                    <input type="text" class="form-control " id="validationDefault02" placeholder="Last Name" required>
+                </div>
+                <div class="col-md-12 mb-3">
+                    <input type="email" class="form-control " id="validationDefault02" placeholder="Email Address"
+                    required>
+                </div>
+                <div class="col-md-12 mb-3">
+                    <input type="number" class="form-control " id="validationDefault02" placeholder="Mobile Number"
+                    required>
+                </div>
+                <div class="col-md-12 mb-3">
+                    <input type="number" class="form-control " id="validationDefault02"
+                    placeholder="Parent Mobile Number" required>
+                </div>
+                <div class="col-md-12 mb-3">
+                    <input type="text" class="form-control " id="validationDefault02" placeholder="Password" required>
+                </div>
+                <div class="col-md-12 mb-3">
+                    <input type="text" class="form-control " id="validationDefault02" placeholder="Confirm Password"
+                    required>
+                </div>
+                <div class="col-md-12 mb-3">
+                    <input type="text" class="form-control " id="validationDefault02" placeholder="Date of birth" required>
+                </div>
+                <div class="form-group col-md-12 mb-3">
+                    <select class="form-control" required>
+                        <option value="">Select Gender</option>
+                        <option value="1">Male</option>
+                        <option value="2">Female</option>
+                    </select>
+                </div>
+                
+                <div class="form-group col-md-12 mb-3">
+                    <select class="form-control" required>
+                        <option value="">Select Caste</option>
+                        <option value="1">Kunbi</option>
+                        <option value="2">Brahmin</option>
+                        <option value="3">Maratha</option>
+                    </select>
+                </div>
+                <div class="col-md-12 mb-3">
+                    <input type="text" class="form-control" placeholder="Aadhar Number" required>
+                </div>
+                <div class="form-group col-md-12 mb-3">
+                    <select class="form-control" required>
+                        <option value="">Select City</option>
+                        <option value="1">Pune</option>
+                        <option value="2">Mumbai</option>
+                        <option value="3">Aurangabad</option>
+                        <option value="4">Nashik</option>
+                        <option value="5">Solapur</option>
+                    </select>
+                </div>
+                <div class="col-md-12 mb-3">
+                    <input type="text" class="form-control" placeholder="Residential Address" required>
+                </div>
+                
+                <div class="col-md-12 mb-3">
+                    <button class="btn btn-danger w-100" type="submit">REGISTER</button>
+                </div>
+                
+                <div class="col-md-12 mb-2">
+                    <p class="text-center">Already have an account? <br><a href="login.shtml"><span class="text-danger">Login Now<span></a></p>
+                    </div>
+                    
+                    
+                </div>
+            </form>
+            <script>
+                // Example starter JavaScript for disabling form submissions if there are invalid fields
+                (function () {
+                    'use strict';
+                    window.addEventListener('load', function () {
+                        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                        var forms = document.getElementsByClassName('needs-validation');
+                        // Loop over them and prevent submission
+                        var validation = Array.prototype.filter.call(forms, function (form) {
+                            form.addEventListener('submit', function (event) {
+                                if (form.checkValidity() === false) {
+                                    event.preventDefault();
+                                    event.stopPropagation();
+                                }
+                                form.classList.add('was-validated');
+                            }, false);
+                        });
+                    }, false);
+                })();
+            </script>
+            
+        </div>
+        
+        
+        <!--#include file="footer.shtml" -->
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        
+        
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+        </script>
+        
+    </body>
+    
+    </html>

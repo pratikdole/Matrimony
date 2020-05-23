@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home</title>
+    <meta charset="UTF-8">
+
+    <!-- Max CDN online links -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Proper rendering for mobile view -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+    <!--#include file="header-other.shtml" -->
+
+    <div class="container rounded-lg border mt-5 shadow">
+        <h2 class="text-center text-danger mt-3">About Us</h2>
+        <hr>
+        <div class="row mt-4">
+           <div class="col-md-4">
+               <img src="images/ganpati.png" class="img-fluid">
+           </div>
+           <div class="col-md-8 pr-4" style="text-align:justify;">
+                <p>
+                    Marriages are made in heaven, they say. Still here in this material world, the parents, family, friends and wellwishers have to put in lots of efforts to find the match created in heaven. Sometimes it take so long in some cases.
+                </p>
+                <p>
+                    <b>Bandh-Reshmanche.com</b> is one of India’s best leading matrimonial websites that has helped lakhs of members find their perfect life partner. We believe choosing a life partner is a big and important decision, and hence work towards giving a simple and secure matchmaking experience for you and your family. Each profile registered with us goes through a manual screening process before going live on site; we provide superior privacy controls for Free; and also verify contact information of members. You can register for Free and search according to your specific criteria on age, height, community, profession, income, location and much more- on your computer, tablet or mobile. Regular custom mails and notifications make the process easier and take you closer to your Jeevansathi!
+                </p>
+                <p>
+                    Bandh Reshmanche Marriage Bureau, since 2017 putting forward their hands in finding those matches fixed in heaven to come in reality with fluent process and rich database of Wellsettled, educated and cultured for all Maratha and Kunbi families across globe. Mrs. Rajendra Gage, the face behind the organisation, is an expert in matchmaking services and has served lot of families to tie an eternal knot.
+                </p>
+           </div>
+        </div>
+        
+    </div>
+    <!--#include file="footer.shtml" -->
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+    </script>
+
+</body>
+
+</html>
